@@ -11,7 +11,7 @@ const mediaKoalas = (numberA, numberB, numberC) => {
 
 let mediaTimeOne = mediaDolphins(9600, 108, 89).toFixed(2);
 let mediaTimeDois = mediaKoalas(88, 91, 110).toFixed(2);
-let scoreMinimo = 100;
+
 
 const resultFinal = () => {
     if (mediaTimeOne > mediaTimeDois) {
