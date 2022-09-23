@@ -35,3 +35,15 @@ const subtracao = (numeroUm,numerodois)=>{
     return numeroUm-numerodois;
 }
 console.log("Arrow function 003 >> ",subtracao(200,102));
+//--------------------------------
+//function calling other function
+function pedacosFrutas(fruta){
+    return fruta * 4;
+}
+function processarFruta(apples,oranges){
+    const applePieces = pedacosFrutas(apples);
+    const orangesPieces = pedacosFrutas(oranges);
+    const suco = `Suco com ${applePieces} e ${orangesPieces}.Realizar pedido!`
+    return suco;
+}
+console.log(processarFruta(2,3));
