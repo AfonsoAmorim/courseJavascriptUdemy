@@ -22,3 +22,5 @@ const testeJonas = pessoa.friends;
 const testeJonas2 = pessoa.friends[0];
 console.log("Jonas tem 3 amigos " + testeJonas + " e seu melhor amigo é: " + testeJonas2);
 
+
+
