@@ -30,3 +30,5 @@ console.log(calTwo([2,3,6]));
 console.log(calTwo(totals));
 console.log(calTwo(tips));
 
+
+
