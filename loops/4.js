@@ -30,5 +30,12 @@ console.log(calTwo([2,3,6]));
 console.log(calTwo(totals));
 console.log(calTwo(tips));
 
+// functions 
 
+let contar = () =>{
+    for(i=0;i<22;i++){
+        console.log(`Conte os numeros em: ${i}`);
+    }
+}
+console.log(contar());
 
