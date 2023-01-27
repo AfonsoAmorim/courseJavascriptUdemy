@@ -1,0 +1,28 @@
+.title{
+    display: flex;
+    justify-content: center;
+}
+.menu-inferior{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+li{
+    padding: 5px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: darkgrey;
+}
