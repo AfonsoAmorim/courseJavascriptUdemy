@@ -1,6 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
 .title{
     display: flex;
     justify-content: center;
+background-color: aqua;
 }
 .menu-inferior{
     display: flex;
@@ -11,10 +18,16 @@ li{
     padding: 5px;
 }
 
+
 .main{
+
     display: flex;
     justify-content: space-around;
     align-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    
 }
 
 
@@ -25,4 +38,11 @@ li{
     display: flex;
     justify-content: space-around;
     background-color: darkgrey;
+}
+
+.footerRight{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
 }
