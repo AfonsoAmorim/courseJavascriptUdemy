@@ -13,6 +13,7 @@ background-color: aqua;
     display: flex;
     list-style: none;
     justify-content: center;
+    background-color: blue;
 }
 li{
     padding: 5px;
@@ -30,6 +31,27 @@ li{
     
 }
 
+.cards{
+    background-color: chartreuse;
+    border-radius: 10px yellow;
+    
+}
+
+.cardCentral{
+    margin: 10px;
+    background-color: chartreuse;
+    
+}
+
+.cardCentral > h2{
+border: 2px red solid;    
+}
+
+
+
+
+
+
 
 
 
@@ -38,6 +60,7 @@ li{
     display: flex;
     justify-content: space-around;
     background-color: darkgrey;
+    flex-wrap: wrap;
 }
 
 .footerRight{
@@ -45,4 +68,7 @@ li{
     justify-content: space-around;
     list-style: none;
     align-items: center;
+    flex-wrap: wrap;
+    
 }
+
